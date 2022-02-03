@@ -1,4 +1,4 @@
-# Better Concrete
+# Tic Tac Toe Console Game
 
 ## Information
 
