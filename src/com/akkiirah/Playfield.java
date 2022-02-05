@@ -52,7 +52,7 @@ public class Playfield {
             return map[0];
 
         // Top right to bottom left
-        else if (map[2] == map[4] && map[0] == map[6] && map[2] != ' ')
+        else if (map[2] == map[4] && map[2] == map[6] && map[2] != ' ')
             return map[2];
 
         // First row - vertical
@@ -67,6 +67,9 @@ public class Playfield {
         else if (map[2] == map[5] && map[2] == map[8] && map[2] != ' ')
             return map[2];
 
-        return ' ';
+        else{
+            return ' ';
+        }
+
     }
 }
